@@ -25,7 +25,7 @@ import Experience from "./experience";
 export default function Home() {
   return (
     <main className=" h-screen w-full">
-      <Canvas>
+      <Canvas camera={{ position: [0, 500, 10] }}>
         <OrbitControls />
         <fog
           attach="fog"
